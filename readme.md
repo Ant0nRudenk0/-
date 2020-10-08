@@ -14,9 +14,13 @@
 
 ![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_1/Class%20Diagram.jpg)
 
+[Код](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_1/uml-1.txt)
+
 ## Usecase Diagram
 
 ![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_1/Usecase%20Diagram.jpg)
+
+[Код](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_1/uml-2.txt)
 
 ## Лабораторная работа №2
 
