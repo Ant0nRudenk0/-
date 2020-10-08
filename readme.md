@@ -24,6 +24,26 @@
 
 ## Лабораторная работа №2
 
+## IDEF0
+
+![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/IDEF0.PNG)
+
+## PDC
+
+![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/PDC.PNG)
+
+## DFD
+
+![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/DFD.PNG)
+
+[Программа](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%E2%84%962.rsf)
+
+## Диаграмма прецедентов
+
+![none](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0.PNG)
+
+[Код](https://github.com/Ant0nRudenk0/rudenko.github.io/blob/master/labs_2/diagramma.txt)
+
 ## Лабораторная работа №3
 
 ## Лабораторная работа №4
