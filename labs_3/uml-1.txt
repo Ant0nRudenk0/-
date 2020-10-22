@@ -1,0 +1,27 @@
+@startuml
+actor "Работник" as actor
+participant "Заполнить обязательные поля" as zop
+entity "ПК работника" as pc
+database "БД: Информация" as db
+participant "Заполнить необязательные поля" as znp
+entity "Вид товара" as vid
+activate zop
+  actor -> zop : Заполнение обязательных полей
+  zop -> db : Запрос необходимой информации
+activate db
+  db -> zop : Выдача необходимой информации
+deactivate db
+zop -> pc : Заполнение с помощью ПК
+  zop -> zop : Проведение данных
+  zop -> actor : Возврат данных и информации о товаре
+deactivate zop
+activate znp
+  actor -> znp : Отправка информации о товаре
+  znp -> db : Запрос информации
+activate db
+  db -> znp : Выдача инфорации
+deactivate db
+  znp -> znp : Проведение данных
+  znp -> vid : Переход к добавлению вида товара
+deactivate znp
+@enduml
