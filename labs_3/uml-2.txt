@@ -1,0 +1,23 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+
+class InfoPot as "Инофрационный поток"
+class DB as "БД: Информация"
+class TZ as "Техническая документация"
+class ZOP as "Обязательные данные"
+class Info as "Информация о товаре"
+class Form as "Необязательные данные"
+
+InfoPot <|-- DB
+DB <|-- Info
+Info *-- ZOP
+Info *-- Form 
+Info *-- TZ 
+hide members
+hide circle
+hide methods
+@enduml
