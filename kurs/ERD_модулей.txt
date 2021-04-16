@@ -1,0 +1,36 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Modules as "Модуль"
+
+class A as "Экранная форма"
+class B as "Экранная форма"
+class C as "Модуль обработки"
+
+class OnOtch as "Форма отчёта"
+class OnDocs as "Форма документа"
+
+class Otch as "Отчёт"
+class Docs as "Документ"
+
+class Reaction as "Обработка данных"
+
+Modules<|-- A
+Modules<|-- B
+Modules<|-- C
+
+A<|-- OnOtch
+A<|-- OnDocs
+
+B<|-- Otch 
+B<|-- Docs
+
+C<|-- Reaction
+
+hide members
+hide circle
+hide methods
+@enduml
