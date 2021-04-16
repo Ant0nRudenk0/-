@@ -1,0 +1,19 @@
+@startuml
+skinparam monochrome true
+
+actor Сотрудник as user
+participant "Информационная система" as system
+database "База данных" as base
+
+user -> system : Запрос на создание документа
+activate system
+system -> base : Запрос необходимых данных
+activate base
+base -> system : Список данных
+system -> base : Заполнение документа данными
+base -> system : Заполненный документ
+system -> base : Сохранение документа
+deactivate base
+system -> user : Созданный документ
+deactivate system
+@enduml
