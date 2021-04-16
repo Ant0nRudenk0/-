@@ -7,7 +7,7 @@ skinparam class {
 class Modules as "Модуль"
 
 class A as "Экранная форма"
-class B as "Экранная форма"
+class B as "Печатная форма"
 class C as "Модуль обработки"
 
 class OnOtch as "Форма отчёта"
